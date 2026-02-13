@@ -26,6 +26,8 @@ body {
     radial-gradient(circle at 60% 90%, rgba(90, 120, 90, 0.12), transparent 35%),
     #efe6d6;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -126,6 +128,7 @@ h1 {
 
 main {
   padding: 1.3rem 0 2.4rem;
+  flex: 1;
 }
 
 .grid {
